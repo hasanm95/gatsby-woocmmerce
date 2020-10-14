@@ -94,3 +94,6 @@ Thumbs.db
 .env
 
 .vercel
+
+wordpress/
+public/

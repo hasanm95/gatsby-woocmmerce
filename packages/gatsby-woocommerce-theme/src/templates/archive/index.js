@@ -3,8 +3,8 @@ import Search from "../../components/home/search";
 import { isEmpty } from 'lodash';
 import Layout from "../../components/layout";
 import Carousel from "../../components/home/carousel";
-import SEO from "../../components/seo";
-import { getOgImage } from "../../utils/functions";
+// import SEO from "../../components/seo";
+// import { getOgImage } from "../../utils/functions";
 
 const ArchivePage = ( props ) => {
 
@@ -22,13 +22,13 @@ const ArchivePage = ( props ) => {
 			{
 				! isEmpty( props.pageContext ) ? (
 					<>
-						<SEO
+						{/* <SEO
 							title={ name }
 							seoData={ seo }
 							uri={ uri }
 							header={ { siteTitle: 'Gatsby WooCommerce Theme' } }
 							openGraphImage={ getOgImage( seo ) }
-						/>
+						/> */}
 						<Carousel categories={ categories }/>
 						<Search
 							products={ products }
